@@ -1,0 +1,27 @@
+body {
+  background-color: #f6f7fb;
+}
+.card {
+  border-radius: 14px;
+}
+#results-table td,
+#results-table th {
+  vertical-align: middle;
+}
+.hash {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+.label-pill {
+  font-size: 0.85rem;
+}
+
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(33, 37, 41, 0.8);
+  z-index: 1050;
+  display: flex;
+  backdrop-filter: blur(2px);
+  transition: opacity 0.2s ease-in-out;
+}

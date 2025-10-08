@@ -1,0 +1,16 @@
+{
+  "name": "git-work-tracker",
+  "version": "1.0.0",
+  "description": "Collect git data from multiple local repos over a date range, show in a Bootstrap table, and export to XLSX.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10",
+    "simple-git": "^3.24.0"
+  }
+}
